@@ -1,0 +1,61 @@
+## ########################################################################
+## Visual Studio - Archivos de compilación y temporales
+## ########################################################################
+
+# Carpetas de salida (Binarios)
+[Bb]in/
+[Oo]bj/
+[Rr]elease/
+[Dd]ebug/
+
+# Carpeta de configuración de Visual Studio (Cache, bases de datos locales, etc.)
+.vs/
+
+# Archivos de usuario (Preferencias personales de ventana, breakpoints, etc.)
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+## ########################################################################
+## Paquetes NuGet
+## ########################################################################
+
+# Los paquetes se restauran automáticamente, no es necesario subirlos
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+## ########################################################################
+## Otros IDEs (VS Code y JetBrains Rider)
+## ########################################################################
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+## ########################################################################
+## Archivos del Sistema Operativo
+## ########################################################################
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+## ########################################################################
+## Archivos de publicación y logs
+## ########################################################################
+
+*.log
+*.publish.htm
+*.azurepublish.txt
