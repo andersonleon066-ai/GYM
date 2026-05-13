@@ -25,7 +25,12 @@
              "anderson@gmail.com",
              20,
              100000,
-             "GOLD"
+             "GOLD",
+             true,
+            "13/05/2026"
+
+
+
         );
         Cliente cli2 = new Cliente(
 
@@ -33,12 +38,16 @@
              "11525646",
              "robinson@gmail.com",
              21,
-             45000
-
+             45000,
+             false,
+             "13/05/2026"
         );
 
         cli1.MostrarInfo();
-        
+        cli1.Tienemembresia();
+        Console.WriteLine("===========================");
+        Console.WriteLine("Cliente 2");
+        cli2.Tienemembresia();
          
     }
 }
